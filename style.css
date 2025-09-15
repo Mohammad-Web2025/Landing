@@ -637,7 +637,7 @@ body{
         margin-bottom: 120px;
     }
     #button-right-hiro:hover{
-        width: 87%;
+        width: 85%;
     }
     .options-web{
         flex-direction: column;
@@ -647,7 +647,7 @@ body{
         margin-bottom: 15px;
     }
     .option-web:hover{
-        width: 95%;
+        width: 92%;
     }
     .service-web{
         flex-direction: column;
@@ -737,7 +737,7 @@ body{
         width: 80%;
     }
     .width-image-work:hover{
-        width: 90%;
+        width: 85%;
     }
     .guidance{
         flex-direction: column;
@@ -766,7 +766,7 @@ body{
         margin-top: 5px;
     }
     .Ways-of-communication:hover{
-        width: 75%;
+        width: 71%;
     }
     .image-off{
         width: 8%;
@@ -798,7 +798,7 @@ body{
         border: rgba(153, 153, 153, 0.5) solid 0.5px;
     }
     .service-team:hover{
-        width: 95%;
+        width: 92%;
     }
     .image-service-team{
         margin-top: 10px;
