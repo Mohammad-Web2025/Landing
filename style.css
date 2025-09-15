@@ -552,6 +552,12 @@ body{
     #text-footer{
         width: 50%;
     }
+    #oval1-image{
+        width: 15px;
+    }
+    .image-user-comment-bottom{
+        width: 10px;
+    }
 }
 #menu{
    width: 15%;
@@ -733,5 +739,15 @@ body{
     }
     #footer-image{
         display: none;
+    }
+    .service-team{
+        border-radius: 15px;
+        border: rgba(153, 153, 153, 0.5) solid 0.5px;
+    }
+    .image-service-team{
+        margin-top: 10px;
+    }
+    #oval1-image{
+        width: 15px;
     }
 }
