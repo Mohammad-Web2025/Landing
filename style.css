@@ -558,15 +558,47 @@ body{
     .image-user-comment-bottom{
         width: 10px;
     }
+    .Elements-menu{
+        display: none;
+    }
 }
 #menu{
-   width: 15%;
+   width: 12%;
    display: none;
+}
+.right-Elements-menu{
+    background-color: rgba(4, 47, 248, 1);
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    padding-right: 20px;
+    border-radius: 15px;
+    display: none;
+}
+.right-menu{
+    font-size: clamp(18px,4vw,25px);
+    color: white;
+    font-weight: bold;
+}
+#left-menu{
+    width: 50%;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.hamburger-menu{
+    display: flex;
+    flex-direction: column;
 }
 /*(min-width:399px) and*/
 @media (max-width:767px){
     img{
         width: 100%;
+    }
+    .right-Elements-menu{
+        width: 60%;
     }
     .header .ul-header {
         display: none;
@@ -604,12 +636,18 @@ body{
         margin-right: 40px;
         margin-bottom: 120px;
     }
+    #button-right-hiro:hover{
+        width: 87%;
+    }
     .options-web{
         flex-direction: column;
     }
     .option-web{
         width: 90%;
         margin-bottom: 15px;
+    }
+    .option-web:hover{
+        width: 95%;
     }
     .service-web{
         flex-direction: column;
@@ -646,6 +684,9 @@ body{
     .top-user-comment{
         width: 90%;
         flex-direction: column;
+    }
+    .user-image:hover{
+        width: 30%;
     }
     .comments-users{
         justify-content: center;
@@ -695,6 +736,9 @@ body{
     .width-image-work{
         width: 80%;
     }
+    .width-image-work:hover{
+        width: 90%;
+    }
     .guidance{
         flex-direction: column;
     }
@@ -713,7 +757,7 @@ body{
         padding-right: 40px;
     }
     .Ways-of-communication{
-        width: 75%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
@@ -721,8 +765,14 @@ body{
         padding-left: 40px;
         margin-top: 5px;
     }
+    .Ways-of-communication:hover{
+        width: 75%;
+    }
     .image-off{
         width: 8%;
+    }
+    .image-off:hover{
+        width: 11%;
     }
     .footer{
         flex-direction: column-reverse;
@@ -734,6 +784,9 @@ body{
     .virtual-space-image{
         width: 18%;
     }
+    .virtual-space-image:hover{
+        width: 25%;
+    }
     #text-footer{
         width: 95%;
     }
@@ -744,6 +797,9 @@ body{
         border-radius: 15px;
         border: rgba(153, 153, 153, 0.5) solid 0.5px;
     }
+    .service-team:hover{
+        width: 95%;
+    }
     .image-service-team{
         margin-top: 10px;
     }
@@ -751,3 +807,10 @@ body{
         width: 15px;
     }
 }
+
+.input-text-user:focus {
+    outline: none;
+    border: 2px solid rgba(4, 47, 248, 1);
+    box-shadow: 0 0 7px rgba(4, 47, 248, 0.8);
+  }
+  
