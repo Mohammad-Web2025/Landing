@@ -574,6 +574,10 @@ body{
     padding-right: 20px;
     border-radius: 15px;
     display: none;
+    position: fixed ;
+    top: 55px;
+    right: 6px;
+    z-index: 999;
 }
 .right-menu{
     font-size: clamp(18px,4vw,25px);
