@@ -567,7 +567,7 @@ body{
    display: none;
 }
 .right-Elements-menu{
-    background-color: rgba(4, 47, 248, 1);
+    background-color: rgba(255, 87, 34, 1);
     justify-content: space-between;
     align-items: center;
     margin-right: 40px;
@@ -585,7 +585,7 @@ body{
     font-weight: bold;
 }
 #left-menu{
-    width: 50%;
+    width: 40%;
     background-color: red;
     border: none;
     color: white;
@@ -602,7 +602,7 @@ body{
         width: 100%;
     }
     .right-Elements-menu{
-        width: 60%;
+        width: 25%;
     }
     .header .ul-header {
         display: none;
